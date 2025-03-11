@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form action="#" method="post">
+      <label for="full-name">Full Name</label>
+      <input type="text" id="full-name" ><br><br>
+
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" name="full-name"><br><br>
+
+      <label for="age">Age</label>
+      <input type="number" id="age" name="age"><br><br>
+
+      <label for="favorite-color">You Favorite Color</label>
+      <input type="color" id="favorite-color" name="favorite-color" value="#008000"><br><br>
+
+      <label for="birthdate">Birthdate</label>
+      <input type="date" id="birthdate" name="birthdate"><br><br>
+
+      <label >Gender:</label><br><br>
+      <input type="radio" id ="male" name="gender" value="male">
+      <label for="male">Male</label><br><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><br><br>
+
+      <label for="password">Password</label>
+      <input type="password"  id="password" name="password"><br><br>
+      <label for="confirm-password">Confirm Password</label>
+      <input type="password" id="confirm-password" name="confirm-password"><br><br>
+
+      <label>Skills</label><br><br>
+      <div style="margin-left: 30px;">
+      <input type="checkbox" id="html" name="skills" value="html">
+      <label for="html">HTML</label><br>
+      <input type="checkbox" id="css" name="skills" value="css">
+      <label for="css">CSS</label><br>
+      <input type="checkbox" id="javascript" name="skills" value="javascript">
+      <label for="javascript">JavaScript</label><br>
+      <input type="checkbox" id="php" name="skills" value="php">
+      <label for="php">PHP</label><br><br></div>
+
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="ethiopia">Ethiopia</option>
+        <option value="kenya">Kenya</option>
+        <option value="nigeria">Nigeria</option>
+        <option value="south-africa">South Africa</option>
+        <option value="tanzania">Tanzania</option>
+        <option value="uganda">Uganda</option>
+        <option value="usa">USA</option>
+      </select><br><br>
+
+      <label for="photo">Photo</label>
+      <input type="file" id="photo" name="photo"><br><br>
+
+      <label for="description">Describe Yourself</label><br>
+      <textarea id="description" name="description" rows="5" cols="40"></textarea><br>
+
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+   </form>
+        <p>Follow Us On: <a href="#">Facebook</a> | <a href="#">Twitter</a></p>
+
+</body>
+</html>
